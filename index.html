@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>colorcodeconverter</title>
+</head>
+<body>
+    Hex(#) : <input class="hex" placeholder="000000"/>
+    <br>
+    <br>
+    RGB(R,G,B) : 
+     <input class="range RGB" value="0" type="number" min="0" max="255"/>,
+     <input class="range RGB" value="0" type="number" min="0" max="255"/> ,
+     <input class="range RGB" value="0" type="number" min="0" max="255"/>
+    <br>
+    <br>
+    HSV(H,S,V) : 
+     <input class="range HSV" value="0" type="number" min="0" max="360"/>&deg;
+     <input class="range HSV" value="0" type="number" min="0" max="100"/>&percnt; 
+     <input class="range HSV" value="0" type="number" min="0" max="100"/>&percnt;
+    <br>
+    <br>
+    HSL(H,S,L) : 
+     <input class="range HSL" value="0" type="number"min="0" max="360"/>&deg;
+     <input class="range HSL" value="0" type="number"min="0" max="100"/>&percnt; 
+     <input class="range HSL" value="0" type="number"min="0" max="100"/>&percnt;
+    <br>
+    <br>
+    Color Preview: 
+    <br>
+    <br>
+    <div style="height: 50px; width:100px ; background-color:black;" ></div> 
+    <br>
+    <br>
+    <button type="reset" >Reset</button>
+    
+</body>
+<script  type="module" src="underthehood.js"></script>
+<script type="module" src="conversions.js"></script>
+</html>
